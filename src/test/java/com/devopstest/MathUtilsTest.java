@@ -70,7 +70,7 @@ class MathUtilsTest {
 		
 		@Test
 		void testAddingTwoPositives() {
-			assertEquals(2, mathUtils.add(1, 0), "Add method should return the sum of two numbers");
+			assertEquals(2, mathUtils.add(1, 1), "Add method should return the sum of two numbers");
 		}
 			
 		@Test
